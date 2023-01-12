@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Ubuntu:wght@300&display=swap');
+
 
 * {
     margin: 0;
@@ -7,7 +8,7 @@
 
 
 body {
-    font-family: 'Merriweather', serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 header {
@@ -22,7 +23,7 @@ a {
     padding-left: 1%;
     color: #fbf5f3;
     text-shadow: 0 0 2px #FFB20F;
-    font-family: 'Merriweather', serif;
+    font-family: 'Covered By Your Grace', cursive;
     text-transform: uppercase;
     font-weight: 100;
     float: left;
@@ -31,14 +32,14 @@ a {
 #menu li {
     display: inline-block;
     list-style: none;
-    float: right;
-    left: 10%;
     padding: 1%;
     margin: 0;
+    float: right;
 }
 
 #menu a {
     color: #fbf5f3;
+    text-transform: uppercase;
 }
 
 #menu a:hover {

@@ -7,16 +7,14 @@
     border: none;
 }
 
-header {
-    background-color: #66101F;
-}
-
 body {
     font-family: 'Ubuntu', sans-serif;
     font-weight: 300;
-    color: ;
+    color: #1B2F33;
+    text-align: center;
 }
 
+/* headers & logo*/
 h1 , h2 {
     color: #fbf5f3;
     font-family: 'Covered By Your Grace', cursive;
@@ -35,24 +33,38 @@ a {
     font-size: 300%;
 }
 
+/* navigation links */
+
+#menu, #logo {
+    line-height: 75px;
+}
+
 #menu li {
     display: inline-block;
     list-style: none;
-    padding: 1%;
-    margin: 0;
+    padding: 0;
+    margin-right: 1%;
     float: right;
-    
 }
+
 
 #menu a {
     color: #fbf5f3;
     text-transform: uppercase;
-    font-size: 100%;
+    font-size: 100%;    
+    padding-bottom: 10%;
 }
 
 #menu a:hover {
-    text-shadow: 0 0 1.5px #fbf5f3;
+    text-shadow: 0 0 1.75px #fbf5f3;
 }
+
+.active {
+    text-shadow: 0 0 2px #fbf5f3;
+    border-bottom: 1.5px solid #fbf5f3;
+}
+
+/* hero image and text */
 
 #hero {
     display: ;
@@ -60,3 +72,9 @@ a {
     padding-top: 10%;
     background-color: #66101F;
 }
+
+/* reasons */
+
+
+
+/*footer*/

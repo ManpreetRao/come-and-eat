@@ -4,15 +4,24 @@
 * {
     margin: 0;
     padding: 0;
-}
-
-
-body {
-    font-family: 'Ubuntu', sans-serif;
+    border: none;
 }
 
 header {
     background-color: #66101F;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    color: ;
+}
+
+h1 , h2 {
+    color: #fbf5f3;
+    font-family: 'Covered By Your Grace', cursive;
+    text-transform: uppercase;
+    font-weight: 100;
 }
 
 a {
@@ -21,12 +30,9 @@ a {
 
 #logo {
     padding-left: 1%;
-    color: #fbf5f3;
-    text-shadow: 0 0 2px #FFB20F;
-    font-family: 'Covered By Your Grace', cursive;
-    text-transform: uppercase;
-    font-weight: 100;
     float: left;
+    text-shadow: 0 0 2px #FFB20F;
+    font-size: 300%;
 }
 
 #menu li {
@@ -35,14 +41,22 @@ a {
     padding: 1%;
     margin: 0;
     float: right;
+    
 }
 
 #menu a {
     color: #fbf5f3;
     text-transform: uppercase;
+    font-size: 100%;
 }
 
 #menu a:hover {
     text-shadow: 0 0 1.5px #fbf5f3;
 }
 
+#hero {
+    display: ;
+    font-size: 150%;
+    padding-top: 10%;
+    background-color: #66101F;
+}

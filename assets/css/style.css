@@ -74,6 +74,7 @@ a {
     height: 600px;
     width: 100%;
     overflow: hidden;
+    position: relative;
 }
 
 #hero-image {
@@ -86,6 +87,25 @@ a {
     animation-duration: 7s;
     animation-fill-mode: forwards;
     }
+
+    #hero-text {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 100%;
+        text-shadow: 0.5px 0.3px 5px #1B2F33;
+        text-align: center center;
+        width: 450px;
+        height: 75px;
+        color: #FBF5F3;
+        padding: 10px 5px;
+        margin: 10px;
+        background-color: rgba(200, 62, 77, 0.9);
+        
+        top: 250px;
+        left: 40%;
+        position: absolute;
+
+    }
+
 
 /* hero image zoom scale*/
 

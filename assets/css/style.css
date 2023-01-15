@@ -145,6 +145,11 @@ a {
     display:table;
     clear: both;
  }
+
+ p > i {
+    font-size: xx-large;
+    padding-bottom: 10px;
+ } 
  
  /*join button*/ 
  #join-button {

@@ -101,7 +101,7 @@ a {
         color: #FBF5F3;
 
         padding: 10px 5px 15px 5px;
-        border: 4px solid rgba(255, 178, 15, 0.2);
+        border: 10px solid rgba(255, 178, 15, 0.3);
         background-color: rgba(200, 62, 77, 0.9);
 
         top: 250px;
@@ -130,6 +130,25 @@ a {
     color: #FFB20F;
     text-shadow: 0.5px 0.3px 5px #FFB20F;
     padding: 2% 0;
+ }
+
+ /* reasons colums- code from w3schools (https://www.w3schools.com/howto/howto_css_four_columns.asp) to learn how to do it*/
+ .reason-columns {
+    width: 25%;
+    float: left;
+    height: 150px;
+    background-color: #66101F
+ }
+
+ .reason-quarters:after {
+    content: "";
+    display:table;
+    clear: both;
+ }
+ 
+ /*join button*/ 
+ #join-button {
+    margin-top: 5%;
  }
 
 /*footer*/

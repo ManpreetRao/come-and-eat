@@ -153,7 +153,30 @@ a {
  
  /*join button*/ 
  #join-button {
-    margin-top: 5%;
+    padding: 75px;
+    background-color: #66101F;
  }
 
 /*footer*/
+
+.socials {
+    height: 75px;
+}
+
+#social-head {
+    padding-bottom: 20px;
+    font-weight: 400;
+    font-size: 110%;
+}
+
+.socials > a {
+    font-size: xx-large;
+    padding-bottom: 20px;
+    margin: 5%;
+    color: #66101F;
+    text-shadow: 0.5px 0.3px 0.5px #1B2F33;
+}
+
+.socials > a:hover {
+    text-shadow: 0.1px 0.1px 1.5px #1B2F33;
+}

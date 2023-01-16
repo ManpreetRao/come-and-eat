@@ -17,7 +17,7 @@ body {
 
 /* headers & logo*/
 
-h1 , h2 , h3 {
+h1 , h2 , h3, h4 {
     color: #66101F;
     font-family: 'Ubuntu', sans-serif;
     text-transform: uppercase;

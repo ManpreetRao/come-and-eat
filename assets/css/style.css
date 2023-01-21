@@ -16,7 +16,6 @@ body {
 }
 
 /* headers & logo*/
-
 h1 , h2 , h3, h4 {
     color: #66101F;
     font-family: 'Ubuntu', sans-serif;
@@ -37,7 +36,6 @@ a {
 }
 
 /* navigation links */
-
 #menu, #logo {
     line-height: 75px;
 }
@@ -68,7 +66,6 @@ a {
 }
 
 /* hero image and text */
-
 #hero {
     font-size: 150%;
     background-color: #FBF5F3;
@@ -90,20 +87,19 @@ a {
     animation-fill-mode: forwards;
     }
 
-    #hero-container {
+#hero-container {
         text-align: center;
         display: inline-block;
         margin: 0 auto;
-        margin-right: 300px;
-    }
+        margin-right: 330px;
+ }
 
-    #hero-text {
+#hero-text {
         font-family: 'Ubuntu', sans-serif;
         font-size: 100%;
         text-shadow: 0.5px 0.3px 5px #1B2F33;
         text-align: center;
         width: 300px;
-        height: 100px;
         color: #FBF5F3;
 
         padding: 10px 5px 15px 5px;
@@ -112,7 +108,7 @@ a {
 
         top: 250px;
         position: absolute;
-    }
+}
 
         
 @keyframes hero-zoom-out {
@@ -160,6 +156,7 @@ a {
  .reason-columns > p {
     padding: 10px;
  }
+ 
  /*join button*/ 
  #join-head {
     color: #FBF5F3;
@@ -192,7 +189,6 @@ a {
 }
 
 /*footer*/
-
 .socials {
     height: 75px;
 }
@@ -240,5 +236,18 @@ a {
 @media screen and (max-width: 800px) {
     .reason-columns {
         width: 100%;
+    }
+}
+
+/*smaller screen sizes from 370px and below*/
+@media screen and (max-width: 370px) {
+    #menu li {
+        font-size: 70%;
+    }
+    #hero-text {
+        width: 90%;
+        font-size: smaller;
+        margin: 0 auto;
+     }
     }
 }

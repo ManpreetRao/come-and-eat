@@ -14,27 +14,31 @@
 <body>
 
     <header>
-        <a href="index.html">
+        <div>
+            <a href="index.html">
             <h1 id="logo">
                 Come and Eat!
             </h1>
         </a>
-        <nav id="menu">
-            <ul>
-                <li>
-                    <a class="active" href="contact-us.html">Contact Us</a>
-                </li>
-                <li>
-                    <a href="join-us.html">Join Us!</a>
-                </li>
-                <li>
-                    <a href="about-us.html">About Us</a>
-                </li>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-            </ul>
-        </nav>     
+        </div>
+        <div>
+            <nav id="menu">
+                <ul>
+                    <li>
+                        <a class="active" href="contact-us.html">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="join-us.html">Join Us!</a>
+                    </li>
+                    <li>
+                        <a href="about-us.html">About Us</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>  
     </header>
 
     <section>
@@ -50,25 +54,30 @@
             <p><i class="fa-solid fa-earth-africa"></i><br><strong>Phone Number</strong><br> 0123 456 789</p><br>
             <p><i class="fa-solid fa-people-group"></i><br><strong>Main Address</strong><br>1 Buckingham Palace Road<br>London, SW1W 0PR<br>United Kingdom></p>
             <br>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9935.078159702885!2d-0.1519858302246094!3d51.49909650000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760520d303ea4b%3A0x628f18f857fcf35!2s1%20Buckingham%20Palace%20Rd%2C%20London%20SW1W%200PR!5e0!3m2!1sen!2suk!4v1674321594190!5m2!1sen!2suk" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9935.078159702885!2d-0.1519858302246094!3d51.49909650000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760520d303ea4b%3A0x628f18f857fcf35!2s1%20Buckingham%20Palace%20Rd%2C%20London%20SW1W%200PR!5e0!3m2!1sen!2suk!4v1674321594190!5m2!1sen!2suk" width="80%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <div class="contact-columns">
-            <p><strong>Send an enquiry form</strong><br></p>
+            <p><strong>Send an Enquiry Form</strong><br></p>
             <br>
             <form action="https://come-and-eat-email-destination.com" method="POST">
                 <label for="fname">First Name</label>
+                <br>
                 <input type="name" id="fname" name="fname" required>
-
+                <br>
                 <label for="lname">Last Name</label>
+                <br>
                 <input type="name" id="lname" name="lname" required>
                 <br>
                 <label for="email">Email Address</label>
+                <br>
                 <input type="email" id="email" name="email" required>
-
+                <br>
                 <label for="phone">Phone Number</label>
-                <input  name="phone" id="phone" type="tel">
+                <br>
+                <input name="phone" id="phone" type="tel">
                 <br>
                 <label for="message">Message</label>
+                <br>
                 <textarea name="message" id="message" cols="40" rows="7"></textarea>
                 <br>
                 <input type="submit" id="button" value="Submit">

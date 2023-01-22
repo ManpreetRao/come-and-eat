@@ -16,6 +16,10 @@ body {
 }
 
 /* headers & logo*/
+header > div {
+    background-color: #FBF5F3;
+}
+
 h1 , h2 , h3, h4 {
     color: #66101F;
     font-family: 'Ubuntu', sans-serif;
@@ -85,14 +89,14 @@ a {
     animation-name: hero-zoom-out;
     animation-duration: 7s;
     animation-fill-mode: forwards;
-    }
+}
 
 #hero-container {
         text-align: center;
         display: inline-block;
         margin: 0 auto;
         margin-right: 330px;
- }
+}
 
 #hero-text {
         font-family: 'Ubuntu', sans-serif;
@@ -132,53 +136,53 @@ a {
     color: #FFB20F;
     text-shadow: 0.5px 0.3px 5px #FFB20F;
     padding: 2% 0;
- }
+}
 
- /* reasons colums- code from w3schools (https://www.w3schools.com/howto/howto_css_four_columns.asp) to learn how to do it*/
- .reason-columns {
+/* reasons colums- code from w3schools (https://www.w3schools.com/howto/howto_css_four_columns.asp) to learn how to do it*/
+.reason-columns {
     width: 25%;
     float: left;
     height: 150px;
     background-color: #66101F;
- }
+}
 
- .reason-quarters:after {
+.reason-quarters:after {
     content: "";
     display:table;
     clear: both;
- }
+}
 
- p > i {
+p > i {
     font-size: xx-large;
     padding-bottom: 10px;
- } 
+} 
  
- .reason-columns > p {
+.reason-columns > p {
     padding: 10px;
- }
+}
  
- /*join button*/ 
- #join-head {
+/*join button*/ 
+#join-head {
     color: #FBF5F3;
     font-size: 100%;
     margin-bottom: 15px;
- }
+}
 
- #join-section {
+#join-section {
     padding: 75px;
     background-color: #66101F;
- }
+}
 
- #button {
+#button {
     background-color: #C83E4D;
     color: #FBF5F3;
     text-shadow: 0.5px 0.3px 0.5px #1B2F33;
     padding: 10px;
     border: 2px solid rgba(255, 178, 15, 0.3);
     border-radius: 10px;
- }
+}
 
- #button:hover {
+#button:hover {
     background-color: #C83E4D;
     color: #FBF5F3;
     font-weight: 600;
@@ -232,37 +236,61 @@ a {
 }
 
 /* contact us page */
- #contact-head {
+#contact-head {
     font-size: 140%;
     font-weight: 400;
     color: #FFB20F;
     text-shadow: 0.5px 0.3px 5px #FFB20F;
-    padding: 2% 0;
     background-color: #FBF5F3;
- }
+}
 
- /* contact colums- code from w3schools (https://www.w3schools.com/howto/howto_css_four_columns.asp) to learn how to do it*/
- .contact-columns {
+#contact-head > h2 {
+    background-color: #66101F;
+    clear: both;
+    color: #FFB20F;
+    padding-top: 30px;
+}
+
+#contact-head > h3 {
+    background-color: #66101F;
+    color: #FFB20F;
+    padding-bottom: 30px;
+}
+
+/* contact colums- code from w3schools (https://www.w3schools.com/howto/howto_css_four_columns.asp) to learn how to do it*/
+.contact-columns {
     width: 50%;
     float: left;
     background-color: #66101F;
     color: #FBF5F3;
     padding-top: 20px;
- }
+}
 
+/*form*/
+form input {
+    width: 300px;
+    margin-bottom: 15px;
+    padding: 5px 0px;
+}
 
+form input {
+    margin-top: 5px;
+}
+
+form #button {
+    width: fit-content;
+    text-transform: uppercase;
+    margin: 24px 0 34px 0;
+}
+textarea {
+    margin: 5px 0 15px 0;
+}
 
 /*small screen sizes from 800px and below*/
 @media screen and (max-width: 800px) {
     .reason-columns {
         width: 100%;
     }
-}
-
-.line-break {
-    height: 1px;
-    width: 100%;
-    background-color: #FBF5F3;
 }
 
 /*smaller screen sizes from 370px and below*/

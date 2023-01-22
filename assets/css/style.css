@@ -83,7 +83,7 @@ a {
 #hero-image {
     height: 100%;
     width: 100%;
-    background: url('../images/long\ table\ of\ a\ variety\ of\ dishes.jpeg') no-repeat center center;
+    background: url('../images/long_table_of_a_variety_of_dishes.jpeg') no-repeat center center;
 
     /* animation styling*/
     animation-name: hero-zoom-out;
@@ -124,6 +124,24 @@ a {
     }
 }
 
+/*about us hero*/
+#au-hero {
+    width: 100%;
+    background-color: rgba(200, 62, 77, 0.9);
+}
+#au-hero img {
+    width: 20%;
+    float: left;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    /* animation styling
+    animation-name: hero-zoom-out;
+    animation-duration: 7s;
+    animation-fill-mode: forwards;
+    */
+}
+
 /* reasons */
 .reasons {
     background-color: #66101F;
@@ -162,13 +180,13 @@ p > i {
 }
  
 /*join button*/ 
-#join-head {
+#style-head {
     color: #FBF5F3;
     font-size: 100%;
     margin: 15px;
 }
 
-#join-section {
+#style-section {
     padding: 75px;
     background-color: #66101F;
 }
@@ -188,7 +206,7 @@ p > i {
     font-weight: 600;
     text-shadow: 0.5px 0.3px 3px #1B2F33;
     padding: 10px;
-    border: 4px solid rgba(251, 245, 243, 0.5);
+    border: 2px solid rgba(251, 245, 243, 0.5);
     border-radius: 10px;
 }
 
@@ -250,7 +268,7 @@ form textarea:focus-visible {
     outline: 2px solid rgba(255, 178, 15, 0.9);
 }
 
-#style-section {
+#contact-section {
     margin-top: 550px;
     padding: 20px;
     background-color: #66101F;

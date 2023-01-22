@@ -270,20 +270,27 @@ p > i {
 form input {
     width: 300px;
     margin-bottom: 15px;
+    margin-top: 5px;
     padding: 5px 0px;
+    background-color: #FBF5F3;
 }
 
-form input {
-    margin-top: 5px;
+form input:focus-visible {
+    outline: 2px solid rgba(255, 178, 15, 0.9);
 }
 
 form #button {
     width: fit-content;
     text-transform: uppercase;
-    margin: 24px 0 34px 0;
+    margin: bottom 12px;
 }
 textarea {
     margin: 5px 0 15px 0;
+    background-color: #FBF5F3;
+}
+
+form textarea:focus-visible {
+    outline: 2px solid rgba(255, 178, 15, 0.9);
 }
 
 /*small screen sizes from 800px and below*/

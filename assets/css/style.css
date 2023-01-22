@@ -251,6 +251,7 @@ form textarea:focus-visible {
 }
 
 #style-section {
+    margin-top: 550px;
     padding: 20px;
     background-color: #66101F;
     color: #FBF5F3;

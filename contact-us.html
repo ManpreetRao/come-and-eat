@@ -60,27 +60,38 @@
             <p><i class="fa-solid fa-envelope"></i><br><strong>Send an Enquiry Form</strong><br></p>
             <br>
             <form action="https://come-and-eat-email-destination.com" method="POST">
-                <label for="fname">First Name</label>
-                <br>
-                <input type="name" id="fname" name="fname" required>
-                <br>
-                <label for="lname">Last Name</label>
-                <br>
-                <input type="name" id="lname" name="lname" required>
-                <br>
-                <label for="email">Email Address</label>
-                <br>
-                <input type="email" id="email" name="email" required>
-                <br>
-                <label for="phone">Phone Number</label>
-                <br>
-                <input name="phone" id="phone" type="tel">
-                <br>
-                <label for="message">Message</label>
-                <br>
-                <textarea name="message" id="message" cols="40" rows="7"></textarea>
-                <br>
-                <input type="submit" id="button" value="Submit">
+                <div class="contact-form-columns">
+                    <label for="fname" >First Name</label>
+                    <br>    
+                    <input type="name" id="fname" name="fname" required>
+                </div>
+               
+                <div >
+                    <label for="lname" >Last Name</label> 
+                    <br>                   
+                    <input type="name" id="lname" name="lname" required>                    
+                </div>
+                
+                <div class="contact-form-columns">
+                    <label for="email" >Email Address</label>
+                    <br>    
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="contact-form-columns">
+                    <label for="phone">Phone Number</label>
+                    <br>    
+                    <input name="phone" id="phone" type="tel">
+                </div>
+
+                <div>
+                    <label for="message">Message</label>
+                    <br>
+                    <textarea name="message" id="message" cols="40" rows="7"></textarea>
+                </div>
+                
+                <input type="submit" id="button" class="button" value="Submit">
+
             </form>
         </div>        
     </section>

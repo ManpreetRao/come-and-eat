@@ -81,28 +81,68 @@
         <div class="contact-columns">
             <p><i class="fa-solid fa-envelope"></i><br><strong>Send an Enquiry Form</strong><br></p>
             <br>
-            <form action="https://come-and-eat-email-destination.com" method="POST" class="event-entry">
-                <label for="fname">First Name</label>
-                <br>
-                <input type="name" id="fname" name="fname" required>
-                <br>
-                <label for="lname">Last Name</label>
-                <br>
-                <input type="name" id="lname" name="lname" required>
-                <br>
-                <label for="email">Email Address</label>
-                <br>
-                <input type="email" id="email" name="email" required>
-                <br>
-                <label for="phone">Phone Number</label>
-                <br>
-                <input name="phone" id="phone" type="tel">
-                <br>
-                <label for="message">Message</label>
-                <br>
-                <textarea name="message" id="message" cols="40" rows="7"></textarea>
-                <br>
-                <input type="submit" id="button" value="Submit">
+            <form action="https://come-and-eat-email-destination.com" method="POST">
+                
+                <div class="join-form-columns">
+                    <label for="join-fname">First Name</label>
+                     <input type="name" id="join-fname" name="join-fname" required>
+                </div>
+               
+                <div class="join-form-columns">
+                    <label for="join-lname">Last Name</label>                    
+                    <input type="name" id="join-lname" name="join-lname" required>                    
+                </div>
+                
+                <div class="join-form-columns">
+                    <label for="join-email">Email Address</label>
+                    <input type="email" id="join-email" name="join-email" required>
+                </div class="join-form-columns">
+                
+                <div class="join-form-columns">
+                    <label for="join-phone">Phone Number</label>
+                    <input name="join-phone" id="join-phone" type="tel">
+                </div>
+                
+                <div>
+                    <p>What session(s) would you like to attend?</p> 
+                    
+                    <div class="checkbox">
+                        <input type="checkbox" id="first-session" name="first-session">
+                        <label for="first-session">5th Feb 2023</label>
+                    </div>
+
+                    <div class="checkbox">
+                        <input type="checkbox" id="second-session" name="second-session">
+                        <label for="second-session">12th Feb 2023</label>
+                    </div>
+
+                    <div class="checkbox">
+                        <input type="checkbox" id="third-session" name="third-session">
+                        <label for="third-session">19th Feb 2023</label>
+                    </div>
+
+                    <div class="checkbox">
+                        <input type="checkbox" id="fourth-session" name="fourth-session">
+                        <label for="fourth-session">26th Feb 2023</label>
+                    </div>
+                 
+                <div id="dropdown">
+                    <label for="diet" required>Which meal option would you like?</label>
+                    <br>
+                    <select name="diet" id="diet">
+                        <option value="meat">Meat</option>
+                        <option value="vegetarian">Vegetarian</option>
+                        <option value="vegan">Vegan</option>
+                    </select>
+                </div>
+                
+                <div id="message">
+                    <label for="join-message">Message</label>
+                    <br>
+                    <textarea name="join-message" id="join-message" cols="40" rows="7"></textarea>
+                </div>
+                
+                <input type="submit" id="join-button" class="button" value="Submit">
             </form>
         </div>        
     </section>

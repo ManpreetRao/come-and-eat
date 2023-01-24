@@ -204,7 +204,7 @@ p > i {
     background-color: #66101F;
 }
 
-#button {
+.button {
     background-color: #C83E4D;
     color: #FBF5F3;
     text-shadow: 0.5px 0.3px 0.5px #1B2F33;
@@ -253,6 +253,51 @@ table .event-entry {
 #join-notes > p {
     margin: 23px auto;
 }
+ /*join us form*/
+.join-form-columns {
+    width: 50%;
+    float: left;
+    background-color: #66101F;
+    color: #FBF5F3;
+    margin: 5px 0;
+}
+
+form #message, #dropdown, #message{
+    margin-top: 10px;
+}
+
+form > label .join-form-columns {
+    float: right;
+}
+
+form .checkbox {
+    display: inline-block;
+    padding-top: 10px;
+    margin-left: 5px;
+}
+
+.checkbox > input {
+    width: 13px;
+}
+
+form #dropdown > select{
+    padding: 5px 0px;
+    margin-top: 10px;
+}
+
+form select:focus-visible {
+    outline: 2px solid rgba(255, 178, 15, 0.9);
+}
+
+#join-message {
+    margin: 10px;
+}
+
+form #join-button {
+    width: fit-content;
+    text-transform: uppercase;
+    margin: 22px 0;
+}
 
 /* contact us page */
 #contact-head {
@@ -285,12 +330,12 @@ table .event-entry {
     padding-top: 20px;
 }
 
-/*form*/
+/*contact form*/
 form input {
-    width: 300px;
+    width: 200px;
+    padding: 5px 0px;
     margin-bottom: 15px;
     margin-top: 5px;
-    padding: 5px 0px;
     background-color: #FBF5F3;
 }
 
@@ -303,6 +348,7 @@ form #button {
     text-transform: uppercase;
     margin-bottom: 11px;
 }
+
 textarea {
     margin: 5px 0 15px 0;
     background-color: #FBF5F3;

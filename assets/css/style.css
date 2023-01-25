@@ -242,7 +242,7 @@ table, tr, td, th {
 
 table {
     margin: 0 auto;
-    height: 300px;
+    height: 250px;
 }
 
 th {
@@ -251,11 +251,11 @@ th {
 }
 
 .event-table-head {
-    margin: 0 auto 20px;
+    margin: 0 auto 10px;
 }
 
 .event-entry {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 table .event-entry {
@@ -309,7 +309,7 @@ form select:focus-visible {
 form #join-button {
     width: fit-content;
     text-transform: uppercase;
-    margin: 22px 0;
+    margin: 15px 0;
 }
 
 /* contact us page */
@@ -366,7 +366,7 @@ form textarea:focus-visible {
     outline: 2px solid rgba(255, 178, 15, 0.9);
 }
 
-#contact-section {
+#info-section {
     margin-top: 550px;
     padding: 20px;
     background-color: #66101F;
@@ -377,23 +377,14 @@ form textarea:focus-visible {
 /*footer*/
 .socials {
     height: 75px;
+    position: relative;
+    bottom: 5px;
 }
 
 .socials #social-head {
     margin-top: 15px;
     padding-bottom: 20px;
     font-size: 110%;
-
-    color: #66101F;
-    text-shadow: 0 0 1.75px #66101F;
-    background-color: #FBF5F3;
-}
-
-.socials #ju-social-head {
-    margin-top: 645px;
-    padding-bottom: 20px;
-    font-size: 110%;
-
     color: #66101F;
     text-shadow: 0 0 1.75px #66101F;
     background-color: #FBF5F3;
@@ -428,6 +419,16 @@ form textarea:focus-visible {
     .reason-columns {
         width: 50%;
     }
+
+    table {
+        padding: 0;
+        font-size: small;
+        height: 250px;
+    }
+
+    td {
+        padding: 0;
+    }
 }
 
 /*small screen sizes from 800px and below*/
@@ -439,8 +440,38 @@ form textarea:focus-visible {
     textarea {
         width: 200px;
     }
+
     .columns {
         width: 100%;
+        height: 450px;
+    }
+
+    table {
+        padding: 0;
+        height: 300px;
+    }
+
+    td {
+        padding: 0;
+    }
+
+    #info-section {
+        height: 50px;
+        position: relative;
+        bottom: 5px;
+    }
+
+    .socials {
+        height: 15px;
+        font-size: small;
+    }
+
+    .socials > a {
+        font-size: small;
+        padding-bottom: 5px;
+        margin: 5%;
+        color: #66101F;
+        text-shadow: 0.5px 0.3px 0.5px #1B2F33;
     }
 }
 
@@ -464,5 +495,11 @@ form textarea:focus-visible {
 
     #style-section {
         padding: 50px;
+    }
+
+    table {
+        padding: 0;
+        height: 250px;
+        font-size: x-small;
     }
 }

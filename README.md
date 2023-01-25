@@ -7,7 +7,7 @@ The purpose of the website is to give the users the ability to sign up for the s
 My goal was to create an easily understandable layout that would allow anyone to use the site successfully, since the sessions are open to anyone and everyone from the community.
 
 <h2>Colour Palette</h2>
-<img src="/assets/images/coolors.jpg" alt="The colour palette used on the website">
+<img src="/assets/images/coolors.png" alt="The colour palette used on the website">
 <br>
 Using the site 'Coolors' I was able to create a colour palette to use throughout the website. I focused on warm colours such as red and yellow. This was to mimic a lot of the existing food companies' branding, but to also create a warm and welcoming environment with the deeper colours. #66101F and #FFB20F were used the most across the website as they provided a a good contrast that was still easy to look at. 
 <br>
@@ -94,7 +94,8 @@ Using the site 'Coolors' I was able to create a colour palette to use throughout
 <h2>Features for the future</h2>
 I would like to add more online options for the sessions next time, with links to streaming and online calling services for the user to recieve email ivitations to once they've filled the form out.
 
-<h2>Deployment<h2>
+<h2>Deployment</h2>
+
 I deployed the site to GitHub by accessing the repository I had created for the project, going into settings and choosing the main branch to deploy from in the Pages section. 
 Any edits I made since the deployment had been committed to the repository.
 

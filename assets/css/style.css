@@ -28,10 +28,9 @@ h2, h3, h4 {
     font-weight: 400;
     color: #FFB20F;
     text-shadow: 0.5px 0.3px 5px #FFB20F;
-    padding: 2% 0;
     font-family: 'Ubuntu', sans-serif;
     text-transform: uppercase;
-    font-weight: 100;
+    font-weight: 140;
 }
 
 a {
@@ -165,6 +164,10 @@ header #logo {
     padding-top: 10px;
 }
 
+.about {
+    padding: 10px 25px;
+}
+
 /* reasons */
 .reasons {
     background-color: #66101F;
@@ -172,10 +175,6 @@ header #logo {
 }
 
  #reasons-head {
-    font-size: 140%;
-    font-weight: 400;
-    color: #FFB20F;
-    text-shadow: 0.5px 0.3px 5px #FFB20F;
     padding: 2% 0;
 }
 
@@ -312,23 +311,17 @@ form #join-button {
 
 /* contact us page */
 #contact-head {
-    font-size: 140%;
-    font-weight: 400;
-    color: #FFB20F;
-    text-shadow: 0.5px 0.3px 5px #FFB20F;
     background-color: #FBF5F3;
 }
 
 #contact-head > h2 {
     background-color: #66101F;
     clear: both;
-    color: #FFB20F;
     padding-top: 30px;
 }
 
 #contact-head > h3 {
     background-color: #66101F;
-    color: #FFB20F;
     padding-bottom: 30px;
 }
 
@@ -386,7 +379,6 @@ form textarea:focus-visible {
 .socials #social-head {
     margin-top: 15px;
     padding-bottom: 20px;
-    font-weight: 400;
     font-size: 110%;
     color: #66101F;
     text-shadow: 0 0 1.75px #66101F;

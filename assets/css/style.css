@@ -473,6 +473,10 @@ form textarea:focus-visible {
         color: #66101F;
         text-shadow: 0.5px 0.3px 0.5px #1B2F33;
     }
+
+    #au-image {
+        width: 170%;
+    }
 }
 
 /*smaller screen sizes from 370px and below*/
@@ -501,5 +505,9 @@ form textarea:focus-visible {
         padding: 0;
         height: 250px;
         font-size: x-small;
+    }
+
+    #au-image {
+        width: 250%;
     }
 }

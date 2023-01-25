@@ -65,7 +65,7 @@ Using the site 'Coolors' I was able to create a colour palette to use throughout
 <h2>Testing</h2>
 <ul>
     <li>I tested this page on Chrome, Firefox and Safari at different screen sizes</li>
-    <li>I confirmed that the website was responsive and was able to function on all standard screen sizes without compromising the desing</li>
+    <li>I confirmed that the website was responsive and was able to function on all standard screen sizes without compromising the design</li>
     <li>I confirmed that the field validation on the forms were working</li>
     <img src="/assets/images/form_email.jpg" alt="Screenshot of the form validation working on an email imput field">
 </ul>

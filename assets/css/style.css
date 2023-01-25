@@ -15,8 +15,9 @@ body {
     text-align: center;
 }
 
-section {
+.section {
     clear: both;
+    background-color: #66101F;
 }
 
 /* headers & logo*/
@@ -31,6 +32,7 @@ h2, h3, h4 {
     font-family: 'Ubuntu', sans-serif;
     text-transform: uppercase;
     font-weight: 140;
+    background-color: #66101F;
 }
 
 a {
@@ -61,7 +63,6 @@ header #logo {
     margin-right: 10px;
     float: right;
 }
-
 
 #menu a {
     color: #66101F;
@@ -123,7 +124,6 @@ header #logo {
         top: 250px;
         position: absolute;
 }
-
         
 @keyframes hero-zoom-out {
     from{ 
@@ -232,6 +232,7 @@ p > i {
     border: 2px solid rgba(251, 245, 243, 0.5);
     border-radius: 10px;
 }
+
 /*join us page*/
 table, tr, td, th {
     border: 2px solid #FBF5F3;
@@ -241,6 +242,7 @@ table, tr, td, th {
 
 table {
     margin: 0 auto;
+    height: 300px;
 }
 
 th {
@@ -263,6 +265,7 @@ table .event-entry {
 #join-notes > p {
     margin: 23px auto;
 }
+
  /*join us form*/
 .join-form-columns {
     width: 50%;
@@ -310,7 +313,7 @@ form #join-button {
 }
 
 /* contact us page */
-#contact-head {
+#column-head {
     background-color: #FBF5F3;
 }
 
@@ -326,14 +329,14 @@ form #join-button {
 }
 
 /* contact colums- code from w3schools (https://www.w3schools.com/howto/howto_css_four_columns.asp) to learn how to do it*/
-.contact-columns {
+.columns {
     width: 50%;
     float: left;
     background-color: #66101F;
     color: #FBF5F3;
     padding: 20px 0 5px;
+    height: 600px;
 }
-
 
 /*contact form*/
 form input {
@@ -380,8 +383,10 @@ form textarea:focus-visible {
     margin-top: 15px;
     padding-bottom: 20px;
     font-size: 110%;
+
     color: #66101F;
     text-shadow: 0 0 1.75px #66101F;
+    background-color: #FBF5F3;
 }
 
 .socials > a {
@@ -424,6 +429,9 @@ form textarea:focus-visible {
     textarea {
         width: 200px;
     }
+    .columns {
+        width: 100%;
+    }
 }
 
 /*smaller screen sizes from 370px and below*/
@@ -436,7 +444,15 @@ form textarea:focus-visible {
         font-size: smaller;
         margin: 0 auto;
      }
-     .contact-columns {
+     .columns {
         width: 100%;
+    }
+
+    .button {
+        font-size: smaller;
+    }
+
+    #style-section {
+        padding: 50px;
     }
 }

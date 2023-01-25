@@ -437,10 +437,6 @@ form textarea:focus-visible {
         width: 100%;
     }
 
-    textarea {
-        width: 200px;
-    }
-
     .columns {
         width: 100%;
         height: 450px;

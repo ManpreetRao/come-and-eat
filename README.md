@@ -6,29 +6,68 @@ The purpose of the website is to give the users the ability to sign up for the s
 
 My goal was to create an easily understandable layout that would allow anyone to use the site successfully, since the sessions are open to anyone and everyone from the community.
 
+<h2>Colour Palette</h2>
+<img src="/assets/images/coolors.jpg" alt="The colour palette used on the website">
+<br>
+Using the site 'Coolors' I was able to create a colour palette to use throughout the website. I focused on warm colours such as red and yellow. This was to mimic a lot of the existing food companies' branding, but to also create a warm and welcoming environment with the deeper colours. #66101F and #FFB20F were used the most across the website as they provided a a good contrast that was still easy to look at. 
+<br>
 <img src="/assets/images/MultiDeviceMockUp.jpg" alt="Multi Device Mock-Up">
 
 <h2>Features</h2>
 <ul>
     <li>Navigation</li>
-    The vavigation is at the top of each page. The logo, which has been created with the use of Google Fonts, is located at the top left and redirects the user to the Home page if clicked. On the top right, the menu items are listed: Home, About Us, Join Us and Contact Us.
+    <img src="/assets/images/nav_bar.jpg" alt="Screenshot of the navigation bar">
+    <br>
+    The Navigation is at the top of each page. The logo, which has been created with the use of Google Fonts, is located at the top left and redirects the user to the Home page if clicked. On the top right, the menu items are listed: Home, About Us, Join Us and Contact Us.
     These navigation links are set in a dark colour on a light background, with text shadowing to add extra contrast for better accessibiity.
     These navigation links provide a clea directory for the user to understand how to interact with the site in order to achieve their desired result. 
     <li>Hero Image</li>
+    <img src="/assets/images/hero_img.jpg" alt="Screenshot of the hero image and text">
+    <br>
     The hero image is a colourful array of dishes on a long table, with people coming around from all sides to eat together. This image encompases what 'Come and Eat!' aims to achieve with the website, which is for people to interact with eachother through the shared experience of food. The text on top of the hero image acts as an invitation to  the user and acts as a short summary of what the website wants to offer within the first glance at the page.
     <li>Reasons to Join</li>
+    <img src="/assets/images/reasons.jpg" alt="Screenshot of the reasons columns and call to action">
+    <br>
     Reasons to join are topped with icons sourced from FontAwesome and set against a dark background to show the user that this is a new section of the page. The aim is to give the user a reason to stay on the website, as well as to consider signing up to the sessions. This section is brought to a conclusion with the listing of the price and a call to action in the form of a "button" that redirects the user to the 'Join Us' page.  
     <li>Footer</li>
+    <img src="/assets/images/footer.jpg" alt="Screenshot of the footer">
+    <br>
     The footer, like the header, has a light background colour to make it obvious that the user has reached the end of the page. It is has a simplistic design, only displaying large icons, sourced from FontAwesome, to Facebook, Instagram, Twitter and TikTok with text to signify that these are social links. When clicked, the icons will take the user to a new tab for the respective social media site. 
     <li>About Us</li>
+    <img src="/assets/images/about_us.jpg" alt="Screenshot of the About Us Page">
+    <br>
     The About As page follows the same colour blocking as the Home page to allow for a feeling of consistency all along the website. This section offers more in-depth reasoning as to why the user should sign up to the sessions. 
     This page also carries the same "button" as the Home page to encourage the user to visit the Join Us page.
     <li>Join Us</li>
+    <img src="/assets/images/join_us.jpg" alt="Screenshot of the Join Us page">
+    <br>
     The Join Us page has been split into 2 columns.
     The first colum holds a table with the next month's events. In the table the user will be able to see all of the most useful information points, such as the venue location, food items and date. The table has a semi-transparent background to allow it to stand out against the page, but not affect the text visibility.
     The second column holds the form that users can sign up to the session with. This form has a simple layout, so as not to deter less technologically advanced users, and has field validation in the form of required fields. 
     <li>Contact US</li>
+    <img src="/assets/images/contact_us.jpg" alt="Screenshot of the Contact Us page">
+    <br>
     The Contact Us page has the same 2-column layout at the Join Us page, but on the left-hand side the user can find vital contact information points. On the right, there is another form, this time for genreal enquiries, but it keeps the same field validation rules and collects the name, phone number and email information of the users as a means to get back in touch. All of these points on the page are accompanied by matching icons, to make the page's contents easy to understand from even a glance.
+</ul>
+
+<h2>Resources</h2>
+<ul>Code Institute HTML & CSS Basics course material</ul>
+<ul>W3Schools</ul>
+<ul>W3C HTML Validation Service</ul>
+<ul>W3C CSS Validation Service</ul>
+<ul>Font Awesome</ul>
+<ul>Google Fonts</ul>
+<ul>Adobe Stock</ul>
+<ul>Pexel</ul>
+<ul>Pixaby</ul>
+<ul>Freepik</ul>
+
+<h2>Testing</h2>
+<ul>
+    <li>I tested this page on Chrome, Firefox and Safari at different screen sizes</li>
+    <li>I confirmed that the website was responsive and was able to function on all standard screen sizes without compromising the desing</li>
+    <li>I confirmed that the field validation on the forms were working</li>
+    <img src="/assets/images/form_email.jpg" alt="Screenshot of the form validation working on an email imput field">
 </ul>
 
 <h2>Validator Testing</h2>
@@ -36,11 +75,13 @@ My goal was to create an easily understandable layout that would allow anyone to
     <li>HTML
         <li>
         One error was identified by the official W3C validator
+        <br>
         <img src="/assets/images/HTML_error_flagging.jpg" alt="HTML error shown in W3C validator">
+        <br>
         I went into my index.html file and removed the closing div tab that had been created on line 47.
         </li>
     </li>
-    <li>>CSS
+    <li>CSS
         <li>No errors were identified by the official W3C validator</li>
     </li>
         </li>Accesibility
@@ -49,5 +90,15 @@ My goal was to create an easily understandable layout that would allow anyone to
         <img src="/assets/images/LighthouseAccessibility.jpg" alt="Accessibility scores shown in Ligthouse">
         </li>
     </li>
+
+<h2>Features for the future</h2>
+I would like to add more online options for the sessions next time, with links to streaming and online calling services for the user to recieve email ivitations to once they've filled the form out.
+
+<h2>Deployment<h2>
+I deployed the site to GitHub by accessing the repository I had created for the project, going into settings and choosing the main branch to deploy from in the Pages section. 
+Any edits I made since the deployment had been committed to the repository.
+
+The link to the website can be found here - <a href="https://manpreetrao.github.io/come-and-eat/index.html" rel="noopener" target="_blank" aria-label="Visit Come and Eat! (opens in a new tab)">Come and Eat!</a>
+
 
 

@@ -389,6 +389,16 @@ form textarea:focus-visible {
     background-color: #FBF5F3;
 }
 
+.socials #ju-social-head {
+    margin-top: 645px;
+    padding-bottom: 20px;
+    font-size: 110%;
+
+    color: #66101F;
+    text-shadow: 0 0 1.75px #66101F;
+    background-color: #FBF5F3;
+}
+
 .socials > a {
     font-size: xx-large;
     padding-bottom: 20px;

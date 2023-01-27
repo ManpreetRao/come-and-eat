@@ -491,6 +491,10 @@ form textarea:focus-visible {
         height: auto;
     }
 
+    .reason-columns {
+        height: auto;
+    }
+
     .join-form-columns {
         width: 100%;
     }

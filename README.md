@@ -50,17 +50,35 @@ Using the site 'Coolors' I was able to create a colour palette to use throughout
     The Contact Us page has the same 2-column layout at the Join Us page, but on the left-hand side the user can find vital contact information points. On the right, there is another form, this time for genreal enquiries, but it keeps the same field validation rules and collects the name, phone number and email information of the users as a means to get back in touch. All of these points on the page are accompanied by matching icons, to make the page's contents easy to understand from even a glance.
 </ul>
 
-<h2>Resources</h2>
-<ul>Code Institute HTML & CSS Basics course material</ul>
-<ul>W3Schools</ul>
-<ul>W3C HTML Validation Service</ul>
-<ul>W3C CSS Validation Service</ul>
-<ul>Font Awesome</ul>
-<ul>Google Fonts</ul>
-<ul>Adobe Stock</ul>
-<ul>Pexel</ul>
-<ul>Pixaby</ul>
-<ul>Freepik</ul>
+<h2>Resources and credits</h2>
+<ul>
+    <li>Coding
+        <ul>
+            <li>Code Institute HTML & CSS Basics course material</li>
+            <li>W3Schools- specifically for the text shadows, column creation and active field outlining</li>
+        </ul>   
+    </li>
+    <li> Validation
+        <ul>
+            <li>W3C HTML Validation Service</li>
+            <li>W3C CSS Validation Service</li>
+        </ul>
+    <li>Styling
+        <ul>
+            <li>Font Awesome</li>
+            <li>Google Fonts</li>
+            <li>Coolors</li>
+        </ul>
+    </li>
+    <li>Images
+        <ul>
+            <li>Adobe Stock- for the hero image</li>
+            <li>Pexel</li>
+            <li>Pixaby</li>
+            <li>Freepik</li>
+        </ul>
+    </li>
+</ul>
 
 <h2>Testing</h2>
 <ul>

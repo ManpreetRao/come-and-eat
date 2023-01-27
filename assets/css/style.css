@@ -367,7 +367,6 @@ form textarea:focus-visible {
 }
 
 #info-section {
-    margin-top: 550px;
     padding: 20px;
     background-color: #66101F;
     color: #FBF5F3;
@@ -376,9 +375,10 @@ form textarea:focus-visible {
 
 /*footer*/
 .socials {
-    height: 75px;
+    height: auto;
     position: relative;
     bottom: 5px;
+    clear: both;
 }
 
 .socials #social-head {
@@ -487,6 +487,11 @@ form textarea:focus-visible {
      }
      .columns {
         width: 100%;
+        height: auto;
+    }
+
+    .join-form-columns {
+        width: 100%;
     }
 
     .button {
@@ -505,5 +510,20 @@ form textarea:focus-visible {
 
     #au-image {
         width: 250%;
+    }
+
+    #join-message {
+        width: 90%;
+        margin: 15px auto;
+    }
+
+    #message {
+        width: 90%;
+        margin: 15px auto;
+    }
+
+    #info-section {
+        height: auto;
+        font-size: smaller;
     }
 }

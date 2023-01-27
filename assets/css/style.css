@@ -371,6 +371,7 @@ form textarea:focus-visible {
     background-color: #66101F;
     color: #FBF5F3;
     font-size: 100%;
+    position: relative;
 }
 
 /*footer*/
@@ -496,6 +497,8 @@ form textarea:focus-visible {
 
     .button {
         font-size: smaller;
+        padding: 5px;
+        display: inline-block;
     }
 
     #style-section {

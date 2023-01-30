@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Ubuntu:wght@300&display=swap');
 
-
 * {
     margin: 0;
     padding: 0;
@@ -521,5 +520,4 @@ form textarea:focus-visible {
         width: 90%;
         margin: 15px auto;
     }
-
 }

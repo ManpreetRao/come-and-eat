@@ -439,6 +439,11 @@ form textarea:focus-visible {
         height: auto;
     }
 
+    .join-form-columns {
+        width: 100%;
+        height: auto;
+    }
+
     .columns {
         width: 100%;
         height: auto;
@@ -492,14 +497,6 @@ form textarea:focus-visible {
         font-size: smaller;
         margin: 0 auto;
      }
-     .columns {
-        width: 100%;
-        height: auto;
-    }
-
-    .join-form-columns {
-        width: 100%;
-    }
 
     #style-section {
         padding: 50px;

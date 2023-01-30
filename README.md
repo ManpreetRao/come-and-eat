@@ -50,36 +50,6 @@ Using the site 'Coolors' I was able to create a colour palette to use throughout
     The Contact Us page has the same 2-column layout at the Join Us page, but on the left-hand side the user can find vital contact information points. On the right, there is another form, this time for genreal enquiries, but it keeps the same field validation rules and collects the name, phone number and email information of the users as a means to get back in touch. All of these points on the page are accompanied by matching icons, to make the page's contents easy to understand from even a glance.
 </ul>
 
-<h2>Resources and credits</h2>
-<ul>
-    <li>Coding
-        <ul>
-            <li>Code Institute HTML & CSS Basics course material</li>
-            <li>W3Schools- specifically for the text shadows, column creation and active field outlining</li>
-        </ul>   
-    </li>
-    <li> Validation
-        <ul>
-            <li>W3C HTML Validation Service</li>
-            <li>W3C CSS Validation Service</li>
-        </ul>
-    <li>Styling
-        <ul>
-            <li>Font Awesome</li>
-            <li>Google Fonts</li>
-            <li>Coolors</li>
-        </ul>
-    </li>
-    <li>Images
-        <ul>
-            <li>Adobe Stock- for the hero image</li>
-            <li>Pexel</li>
-            <li>Pixaby</li>
-            <li>Freepik</li>
-        </ul>
-    </li>
-</ul>
-
 <h2>Testing</h2>
 <ul>
     <li>I tested this page on Chrome, Firefox and Safari at different screen sizes</li>
@@ -109,6 +79,10 @@ Using the site 'Coolors' I was able to create a colour palette to use throughout
         </li>
     </li>
 
+<h2>Bugs</h2>
+After deploying my website, I found that my 'Join Us' and 'Contact Us' pages were not showing the full content when viewed at a screen width smaller than 300px. 
+To fix this, I added 'auto' to the height styling for each section and amended the text style. This made it possible to see the content of all the pages at any size.
+
 <h2>Features for the future</h2>
 I would like to add more online options for the sessions next time, with links to streaming and online calling services for the user to recieve email ivitations to once they've filled the form out.
 
@@ -118,6 +92,36 @@ I deployed the site to GitHub by accessing the repository I had created for the 
 Any edits I made since the deployment had been committed to the repository.
 
 The link to the website can be found here - <a href="https://manpreetrao.github.io/come-and-eat/index.html" rel="noopener" target="_blank" aria-label="Visit Come and Eat! (opens in a new tab)">Come and Eat!</a>
+
+<h2>Resources and credits</h2>
+<ul>
+    <li>Coding
+        <ul>
+            <li>Code Institute HTML & CSS Basics course material</li>
+            <li>W3Schools- specifically for the text shadows, column creation and active field outlining</li>
+        </ul>   
+    </li>
+    <li> Validation
+        <ul>
+            <li>W3C HTML Validation Service</li>
+            <li>W3C CSS Validation Service</li>
+        </ul>
+    <li>Styling
+        <ul>
+            <li>Font Awesome</li>
+            <li>Google Fonts</li>
+            <li>Coolors</li>
+        </ul>
+    </li>
+    <li>Images
+        <ul>
+            <li>Adobe Stock- for the hero image</li>
+            <li>Pexel</li>
+            <li>Pixaby</li>
+            <li>Freepik</li>
+        </ul>
+    </li>
+</ul>
 
 
 

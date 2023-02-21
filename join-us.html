@@ -85,18 +85,18 @@
                 
                 <div class="join-form-columns">
                     <label for="join-fname">First Name</label>
-                    <input type="name" id="join-fname" name="join-fname">
+                    <input type="text" id="join-fname" name="join-fname">
                 </div>
                
                 <div class="join-form-columns">
                     <label for="join-lname">Last Name</label>                    
-                    <input type="name" id="join-lname" name="join-lname">                    
+                    <input type="text" id="join-lname" name="join-lname">                    
                 </div>
                 
                 <div class="join-form-columns">
                     <label for="join-email">Email Address</label>
                     <input type="email" id="join-email" name="join-email" required>
-                </div class="join-form-columns">
+                </div>
                 
                 <div class="join-form-columns">
                     <label for="join-phone">Phone Number</label>
@@ -107,8 +107,8 @@
                     <p>What session(s) would you like to attend?</p> 
                     
                     <div class="checkbox">
-                        <input type="checkbox" id="first-session" name="first-session" >
-                        <label for="first-session">5th Feb 2023</label required>
+                        <input type="checkbox" id="first-session" name="first-session" required>
+                        <label for="first-session">5th Feb 2023</label>
                     </div>
 
                     <div class="checkbox">
@@ -125,9 +125,10 @@
                         <input type="checkbox" id="fourth-session" name="fourth-session">
                         <label for="fourth-session">26th Feb 2023</label>
                     </div>
+                </div>
                  
                 <div id="dropdown">
-                    <label for="diet" required>Which meal option would you like?</label>
+                    <label for="diet">Which meal option would you like?</label>
                     <br>
                     <select name="diet" id="diet">
                         <option value="meat">Meat</option>

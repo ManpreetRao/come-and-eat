@@ -11,7 +11,7 @@ My goal was to create an easily understandable layout that would allow anyone to
 <br>
 Using the site 'Coolors' I was able to create a colour palette to use throughout the website. I focused on warm colours such as red and yellow. This was to mimic a lot of the existing food companies' branding, but to also create a warm and welcoming environment with the deeper colours. #66101F and #FFB20F were used the most across the website as they provided a a good contrast that was still easy to look at. 
 <br>
-<img src="/assets/images/multidevicemockup.jpg" alt="Multi Device Mock-Up">
+<img src="/assets/images/multi_device_mock_up.jpg" alt="Multi Device Mock-Up">
 
 <h2>Features</h2>
 <ul>

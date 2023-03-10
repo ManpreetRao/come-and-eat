@@ -71,20 +71,20 @@ Using the site 'Coolors' I was able to create a colour palette to use throughout
         <li>
         8 errors had been identified on the Join Us page.
         <br>
-        <img src="/assets/images/errors/error_html_validator_join_us_page.jpg" alt="HTML errors identified from the Join Us page">
+        <img src="/assets/images/errors/error_html_vaildator_join_us_page.jpg" alt="HTML errors identified from the Join Us page">
         <br>
         I went through each error and made corrections to my code in the Join Us page until the validator returned 1 warning that I felt did not affect my code, so I left it:
         <br>
-        <img src="/assets/images/errors/updated_html_validator_join_us_page.jpg" alt="updated HTML errors identified from the Join Us page">
+        <img src="/assets/images/errors/updated_html_vaildator_join_us_page.jpg" alt="updated HTML errors identified from the Join Us page">
         </li>
         <li>
         4 errors had been identified on the Contact Us page.
         <br>
-        <img src="/assets/images/errors/error_html_validator_contact_us_page.jpg" alt="HTML errors identified from the Contact Us page">
+        <img src="/assets/images/errors/error_html_vaildator_contact_us_page.jpg" alt="HTML errors identified from the Contact Us page">
         <br>
         I went through each error and made corrections to my code in the Contact Us page. The validator returned 1 warning that I felt did not affect my code, so I left it:
         <br>
-        <img src="/assets/images/errors/updated_html_validator_contact_us_page.jpg" alt="updated HTML errors identified from the Contact Us page">
+        <img src="/assets/images/errors/updated_html_vaildator_con_us_page.jpg" alt="updated HTML errors identified from the Contact Us page">
         </li>
     </li>
     <li>CSS
@@ -93,7 +93,7 @@ Using the site 'Coolors' I was able to create a colour palette to use throughout
         </li>Accesibility
         <li>
         My site was confirmed to be accessible when I ran it through Lighthouse in devtools.
-        <img src="/assets/images/LighthouseAccessibility.jpg" alt="Accessibility scores shown in Ligthouse">
+        <img src="/assets/images/lighthouse_accessibility.jpg" alt="Accessibility scores shown in Ligthouse">
         </li>
     </li>
 

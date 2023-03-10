@@ -62,11 +62,29 @@ Using the site 'Coolors' I was able to create a colour palette to use throughout
 <ul>
     <li>HTML
         <li>
-        One error was identified by the official W3C validator
+        One error was identified by the official W3C validator for the Home page. 
         <br>
-        <img src="/assets/images/HTML_error_flagging.jpg" alt="HTML error shown in W3C validator">
+        <img src="/assets/images/errors/html_error_flagging.jpg" alt="HTML error shown in W3C validator">
         <br>
         I went into my index.html file and removed the closing div tab that had been created on line 47.
+        </li>
+        <li>
+        8 errors had been identified on the Join Us page.
+        <br>
+        <img src="/assets/images/errors/error_html_validator_join_us_page.jpg" alt="HTML errors identified from the Join Us page">
+        <br>
+        I went through each error and made corrections to my code in the Join Us page until the validator returned 1 warning that I felt did not affect my code, so I left it:
+        <br>
+        <img src="/assets/images/errors/updated_html_validator_join_us_page.jpg" alt="updated HTML errors identified from the Join Us page">
+        </li>
+        <li>
+        4 errors had been identified on the Contact Us page.
+        <br>
+        <img src="/assets/images/errors/error_html_validator_contact_us_page.jpg" alt="HTML errors identified from the Contact Us page">
+        <br>
+        I went through each error and made corrections to my code in the Contact Us page. The validator returned 1 warning that I felt did not affect my code, so I left it:
+        <br>
+        <img src="/assets/images/errors/updated_html_validator_contact_us_page.jpg" alt="updated HTML errors identified from the Contact Us page">
         </li>
     </li>
     <li>CSS
